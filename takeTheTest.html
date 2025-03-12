@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzle</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="quizzle.png" alt="Quizzle" id="QuizzleImage">
+        <p>Estimate your AP Environmental Score and get a customized Score Report!</p>
+    </header>
+
+    <main>
+        <section id="quiz-section">
+            <h2>APES Multiple Choice Quiz</h2>
+            <form id="quiz-form"></form>
+            <button id="next-button" disabled>Next</button>
+        </section>
+
+        <section id="result-section" style="display: none;">
+            <h2>Your Score Report:</h2>
+            <div id="score-summary" style="display: block"></div>
+            <canvas id="pie-chart" width="400" height="400"></canvas>
+        </section>
+           
+            <section><div id="topics-summary">
+                <canvas id="bar-chart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Predicted AP Environmental Test Score: <span id="predicted-score">Not available</span></h3>
+    </footer>
+</body>
+</html>
+
+    

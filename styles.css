@@ -1,0 +1,54 @@
+
+#QuizzleImage {
+    width: 110%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#user-choices {
+    display: flex;
+    padding: 20 px;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#user-choices img {
+    width: 25%;
+    height: auto;
+    max-width: 100 px;
+    display: inline-block;
+    transition: transforms 0.3s ease;
+    
+}
+
+#user-choices a {
+    display: block;
+    text-decoration: none;
+}
+
+#user-choice a: hover img{
+    transform: scale(1.05);
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+}
+
+#p-chart {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+#pie-chart {
+    display: inline;
+}
